@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  overflow: hidden;
+}
+
+body {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.right-side {
+  width: 750px;
+  height: 100%;
+  background-color: #ecc63e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.8;
+  transform: skewX(-15deg) translateX(150px);
+}
+
+.num-arrow {
+  color: white;
+  margin-left: 8px;
+}
+
+.arrow-down {
+  transform: translateY(550px);
+  position: absolute;
+  cursor: pointer;
+}
+
+.arrow-up {
+  cursor: pointer;
+}
+
+.read-arrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 10px;
+  gap: 10px;
+  transform: translateX(400px);
+}
+
+.btn-img-arrow {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.london-info {
+  transform: translateY(350px);
+  padding-left: 300px;
+}
+
+.two {
+  font-size: 100px;
+  margin-left: 250px;
+}
+
+.london-h3 {
+  font-weight: 700;
+  font-size: 25px;
+  width: 250px;
+  margin-left: 120px;
+}
+
+.view-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  margin-left: 260px;
+}
+
+.span-view {
+  font-weight: 700;
+}
